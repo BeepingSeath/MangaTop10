@@ -1,3 +1,3 @@
 # MangaTop10
 
-Top 10 for my mangaupdates account.
+Top 10 for my mangaupdates account!!
