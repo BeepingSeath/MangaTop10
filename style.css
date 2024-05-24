@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-color: #201322;
+}
+img {
+    max-height: 25rem;
+}
+.container {
+    margin: 0.5rem;
+    background-color: #201322;
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    max-width: fit-content;
+    padding: 1rem;
+}
+
+.cardSet {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media (width <= 1300px) {
+    .cardSet {
+        display: flex;
+        flex-direction: column;
+    }
+  }
