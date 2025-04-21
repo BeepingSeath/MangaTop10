@@ -24,13 +24,7 @@ img {
 
 .cardSet {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
 }
-
-@media (width <= 1300px) {
-    .cardSet {
-        display: flex;
-        flex-direction: column;
-    }
-  }
